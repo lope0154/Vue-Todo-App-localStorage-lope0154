@@ -2,8 +2,8 @@
   <div id="app">
     <div class="hero is-success">
     <div class="is-fullwidth">
-    <h1 class="title is-1">Vue Todos</h1>
-    <span class="subtitle is-5">{{moment(date).format('MM/DD/YYYY')}}</span>
+    <h1 class="app-title title is-1">Vue Todos</h1>
+    <span class="app-title subtitle is-5">{{moment(date).format('MM/DD/YYYY')}}</span>
     </div>
     <!-- We need some navigation links to switch between views -->
     <nav class="tabs is-boxed is-fullwidth">
@@ -100,5 +100,8 @@ nav ul li {
 }
 section {
   margin-bottom: 0.05em;
+}
+.app-title {
+margin-left: 10px;
 }
 </style>

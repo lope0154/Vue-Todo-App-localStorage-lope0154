@@ -30,7 +30,7 @@
       <div class="control">
       <input class="input" type="text" placeholder="Task Title" v-model.trim="newTask.title" @keyup.enter="addTask">
       </div>
-    <button @click="addTask" class="button is-pulled-right">Add Task</button>
+    <button @click="addTask" class="button is-warning is-pulled-right">Add Task</button>
     </section>
   </div>
 </template>

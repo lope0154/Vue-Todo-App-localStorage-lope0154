@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="title is-3">{{listTitle}}</h2>
+    <h2 class="app-title title is-3">{{listTitle}}</h2>
     <div class="box">
     <div class="toolbar, dropdown">
       <div class="column">
@@ -45,13 +45,13 @@
           @click="toggleDone(task)"></span>
         </div>
 
-        <div class="column is-9">
+        <div class="column is-8">
           <span class="title is-5">{{ task.title }}</span>
         <section>
-          <span>{{ task.category }}</span>
+          <span class="title is-6">{{ task.category }}</span>
           <span>{{ task.description }}</span>
         </section>
-        <section class="title is-6">
+        <section>
           <span>{{ task.dueDate }}</span>
         </section>
         </div>
